@@ -60,7 +60,7 @@ class _ConfigurationPageState extends State<ConfigurationPage> {
             ),
             const SizedBox(height: 10),
             OutlinedButton(
-              onPressed: () {},
+              onPressed: appStore.deletApp,
               child: const Text(
                 'Apagar cache e reiniciar app',
               ),
