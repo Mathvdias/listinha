@@ -48,7 +48,7 @@ class _HomePageState extends State<HomePage> {
                     label: Text('Desativadas'),
                   ),
                 ],
-                selected: const {0},
+                selected: const {1},
                 onSelectionChanged: (values) {},
               ),
             ),
