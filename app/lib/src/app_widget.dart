@@ -12,8 +12,9 @@ class AppWidget extends StatelessWidget {
     return MaterialApp.router(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      theme: lightTheme,
+      themeMode: ThemeMode.light,
       darkTheme: darkTheme,
+      theme: lightTheme,
       routerDelegate: Modular.routerDelegate,
       routeInformationParser: Modular.routeInformationParser,
     );
